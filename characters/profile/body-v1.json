@@ -1,5 +1,5 @@
 {
-    "id": "https://raw.githubusercontent.com/totegamma/concurrent-schemas/main/characters/profile/body-v1.json",
+    "id": "https://raw.githubusercontent.com/totegamma/concurrent-schemas/master/characters/profile/body-v1.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "description": "",
     "type": "object",
