@@ -1,7 +1,0 @@
-{
-    "version": "v1",
-    "body": "https://raw.githubusercontent.com/totegamma/concurrent-schemas/master/messages/note/body-v1.json",
-    "availableAssociations": [
-        "https://raw.githubusercontent.com/totegamma/concurrent-schemas/master/messages/v1.json"
-    ]
-}
