@@ -4,5 +4,6 @@
     "description": "",
     "metadata": {},
     "type": "object",
-    "properties": {}
+    "properties": {},
+    "additionalProperties": false
 }
