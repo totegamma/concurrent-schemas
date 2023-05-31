@@ -14,6 +14,23 @@
         },
         "description": {
             "type": "string"
+        },
+        "banner": {
+            "type": "string"
+        },
+        "links": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "key": {
+                        "type": "string"
+                    },
+                    "value": {
+                        "type": "string"
+                    }
+                }
+            }
         }
     },
     "additionalProperties": false
