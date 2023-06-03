@@ -1,0 +1,33 @@
+{
+    "$id": "https://raw.githubusercontent.com/totegamma/concurrent-schemas/master/messages/reply/0.0.1.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "",
+    "type": "object",
+    "metadata": {
+        "availableAssociations": [
+            "https://raw.githubusercontent.com/totegamma/concurrent-schemas/master/like/0.0.1.json"
+        ]
+    },
+    "properties": {
+        "replyToMessageId": {
+            "type": "string"
+        },
+        "body": {
+            "type": "string"
+        },
+        "emojis": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": {
+                    "anyOf": [
+                        {"type": "string"},
+                        {"type": "number"}
+                    ]
+                }
+            }
+        }
+    },
+    "additionalProperties": false,
+    "required": ["replyToMessageId", "body"]
+}
