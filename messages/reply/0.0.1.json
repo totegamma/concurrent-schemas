@@ -12,6 +12,9 @@
         "replyToMessageId": {
             "type": "string"
         },
+        "replyToMessageAuthor": {
+            "type": "string"
+        },
         "body": {
             "type": "string"
         },
@@ -29,5 +32,5 @@
         }
     },
     "additionalProperties": false,
-    "required": ["replyToMessageId", "body"]
+    "required": ["replyToMessageId", "replyToMessageAuthor", "body"]
 }

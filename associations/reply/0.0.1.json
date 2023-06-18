@@ -7,8 +7,11 @@
     "properties": {
         "messageId": {
             "type": "string"
+        },
+        "messageAuthor": {
+            "type": "string"
         }
     },
     "additionalProperties": false,
-    "required": ["messageId"]
+    "required": ["messageId", "messageAuthor"]
 }
