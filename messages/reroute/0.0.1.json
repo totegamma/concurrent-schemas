@@ -22,15 +22,20 @@
             "type": "array",
             "items": {
                 "type": "object",
-                "additionalProperties": {
-                    "anyOf": [
-                        {"type": "string"},
-                        {"type": "number"}
-                    ]
+                "properties": {
+                    "shortcode": {
+                        "type": "string"
+                    },
+                    "imageUrl": {
+                        "type": "string"
+                    }
                 }
             }
         }
     },
     "additionalProperties": false,
-    "required": ["rerouteMessageId", "rerouteMessageAuthor"]
+    "required": [
+        "rerouteMessageId",
+        "rerouteMessageAuthor"
+    ]
 }
