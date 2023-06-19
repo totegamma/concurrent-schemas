@@ -1,0 +1,17 @@
+{
+    "$id": "https://raw.githubusercontent.com/totegamma/concurrent-schemas/master/assosiations/reroute/0.0.1.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "",
+    "metadata": {},
+    "type": "object",
+    "properties": {
+        "messageId": {
+            "type": "string"
+        },
+        "messageAuthor": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "required": ["messageId", "messageAuthor"]
+}
