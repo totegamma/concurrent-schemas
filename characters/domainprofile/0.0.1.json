@@ -27,6 +27,12 @@
                 "type": "string"
             }
         },
+        "defaultFollowingStreams": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
         "defaultPostStreams": {
             "type": "array",
             "items": {
