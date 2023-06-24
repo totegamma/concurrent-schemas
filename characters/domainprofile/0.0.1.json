@@ -21,7 +21,13 @@
         "bannerURL": {
             "type": "string"
         },
-        "defaultStream": {
+        "defaultBookmarkStreams": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "defaultPostStreams": {
             "type": "array",
             "items": {
                 "type": "string"
