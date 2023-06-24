@@ -1,0 +1,32 @@
+{
+    "$id": "https://raw.githubusercontent.com/totegamma/concurrent-schemas/master/characters/domainprofile/0.0.1.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "",
+    "type": "object",
+    "metadata": {
+    },
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "tosURL": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "iconURL": {
+            "type": "string"
+        },
+        "bannerURL": {
+            "type": "string"
+        },
+        "defaultStream": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "additionalProperties": false
+}
