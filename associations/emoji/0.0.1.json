@@ -6,10 +6,10 @@
     "type": "object",
     "properties": {
         "imageUrl": {
-          "type": "string"
+            "type": "string"
         },
         "shortcode": {
-          "type": "string"
+            "type": "string"
         }
     },
     "additionalProperties": false,
