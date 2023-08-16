@@ -13,15 +13,18 @@
             "type": "string"
         },
         "emojis": {
-            "type": "array",
-            "items": {
+            "type": "object",
+            "additionalProperties": {
                 "type": "object",
-                "additionalProperties": {
-                    "anyOf": [
-                        {"type": "string"},
-                        {"type": "number"}
-                    ]
-                }
+                "properties": {
+                    "imageURL": {
+                        "type": "string"
+                    },
+                    "animURL": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false
             }
         }
     },

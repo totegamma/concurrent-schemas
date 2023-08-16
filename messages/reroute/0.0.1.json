@@ -19,17 +19,18 @@
             "type": "string"
         },
         "emojis": {
-            "type": "array",
-            "items": {
+            "type": "object",
+            "additionalProperties": {
                 "type": "object",
                 "properties": {
-                    "shortcode": {
+                    "imageURL": {
                         "type": "string"
                     },
-                    "imageUrl": {
+                    "animURL": {
                         "type": "string"
                     }
-                }
+                },
+                "additionalProperties": false
             }
         }
     },
