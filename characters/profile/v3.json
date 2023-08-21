@@ -1,0 +1,46 @@
+{
+    "$id": "https://raw.githubusercontent.com/totegamma/concurrent-schemas/master/characters/profile/v3.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "",
+    "type": "object",
+    "metadata": {
+    },
+    "properties": {
+        "username": {
+            "type": "string"
+        },
+        "avatar": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "banner": {
+            "type": "string"
+        },
+        "links": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "key": {
+                        "type": "string"
+                    },
+                    "value": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "homeStream": {
+            "type": "string"
+        },
+        "notificationStream": {
+            "type": "string"
+        },
+        "associationStream": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false
+}
