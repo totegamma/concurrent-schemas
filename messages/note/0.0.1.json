@@ -26,6 +26,24 @@
                 },
                 "additionalProperties": false
             }
+        },
+        "profileOverride": {
+            "type": "object",
+            "properties": {
+                "username": {
+                    "type": "string"
+                },
+                "avatar": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "link": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
         }
     },
     "additionalProperties": false,
