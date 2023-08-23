@@ -1,0 +1,10 @@
+{
+    "$id": "https://raw.githubusercontent.com/totegamma/concurrent-schemas/master/associations/userack/v1.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "",
+    "metadata": {},
+    "type": "object",
+    "properties": {
+    },
+    "additionalProperties": false
+}

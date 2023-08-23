@@ -6,6 +6,12 @@
     "metadata": {
     },
     "properties": {
+        "ccid": {
+            "type": "string"
+        },
+        "association": {
+            "type": "string"
+        }
     },
     "additionalProperties": false
 }
