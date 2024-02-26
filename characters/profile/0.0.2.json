@@ -18,6 +18,12 @@
         "banner": {
             "type": "string"
         },
+        "subprofiles": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
         "links": {
             "type": "array",
             "items": {
