@@ -41,6 +41,9 @@
                 },
                 "link": {
                     "type": "string"
+                },
+                "characterID": {
+                    "type": "string"
                 }
             },
             "additionalProperties": false
