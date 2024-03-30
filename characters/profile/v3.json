@@ -32,6 +32,12 @@
                 }
             }
         },
+        "subprofiles": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
         "homeStream": {
             "type": "string"
         },
